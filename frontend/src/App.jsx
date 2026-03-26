@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const API = "http://127.0.0.1:8000";
+  const API = "https://bhavya-1-eb07.onrender.com/upload";
 
 const testAPI = async () => {
   const res = await fetch(`${API}/`);
