@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const API = "https://bhavyasecuritirs.onrender.com";
+  const API = "https://bhavya-zxah.onrender.com";
 
 const testAPI = async () => {
   const res = await fetch(`${API}/`);
