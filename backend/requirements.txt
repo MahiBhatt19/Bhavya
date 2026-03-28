@@ -2,3 +2,4 @@ fastapi
 uvicorn
 pandas
 neo4j
+python-multipart
